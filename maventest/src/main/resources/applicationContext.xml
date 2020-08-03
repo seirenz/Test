@@ -4,6 +4,8 @@
 		xsi:schemaLocation="http://www.springframework.org/schema/beans 
 							http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id = "gr" class = "com.naver.www.testSpring.Greeter"> Greeter gr = new greeter();</bean>
-	
+<bean id = "gr" class = "com.naver.www.testSpring.Greeter"> <property name ="format" value="%s, 안녕하세요!"/> </bean>
+	<!-- same as com.naver.www.Greeter gr = new com.naver.www.Greeter()
+		 gr.setFormat("%s, 안녕하세요!") -->
+		 
 </beans>
