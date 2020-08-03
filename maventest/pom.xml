@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.naver.www.springTest</groupId>
-  <artifactId>dd</artifactId>
+  <artifactId>mavenstudy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>dd</name>
